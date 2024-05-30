@@ -1,0 +1,707 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(238, 234, 238);
+    color: #3d4152;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.nav-logo{
+    height: 60px;
+    width: 50px;
+    background-image: url(Swiggy-logo-768x432.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nav-other{
+    text-decoration: underline;
+    width: 20%;
+}
+.select{
+    color: #ffa700;
+   background-color: white;
+    border-radius: 4px;
+    
+}
+.nav-corporate{
+    width: 157px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-search{
+   width: 77px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-offer{
+    width: 72px;
+    display: flex;
+    justify-content: space-between;
+}
+.subscript{
+    font-size: smaller;
+    color: #ffa700;
+}
+.nav-help{
+    width: 62px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-signin{
+    width: 77px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-cart{
+    width: 58px;
+    display: flex;
+    justify-content: space-between;
+}
+.herosection{
+    display: flex;
+    justify-content: center;
+}
+.herosection1{
+    height: 256px;
+    width: 1200px;
+    padding: 16px;
+    background-color: white;
+    border-bottom: 1px solid grey;
+}
+.box1{
+    width: 144px;
+    height: 180px;
+    background-image: url(Pizza.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box2{
+    width: 144px;
+    height: 180px;
+    background-image: url(Rolls.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box3{
+    width: 144px;
+    height: 180px;
+    background-image: url(Chinese.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box4{
+    width: 144px;
+    height: 180px;
+    background-image: url(Burger.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box5{
+    width: 144px;
+    height: 180px;
+    background-image: url(Noodles.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box6{
+    width: 144px;
+    height: 180px;
+    background-image: url(Dosa.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box7{
+    width: 144px;
+    height: 180px;
+    background-image: url(Biryani.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.photos1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.maincontent1{
+    display: flex;
+    justify-content: center;
+}
+.food1{
+    height: 380px;
+    width: 920px;
+    padding: 16px;
+}
+.pic1{
+    width: 273px;
+    height: 182px;
+    background-image: url(pizzahut.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    font-weight: bolder;
+}
+.pic1 h3{
+    color: white;
+
+}
+.pic2{
+    width: 273px;
+    height: 182px;
+    background-image: url(chineseWok.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin-left: 10px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    font-weight: bolder;
+}
+.pic2 h3{
+    color: white;
+
+}
+.pic3{
+    width: 273px;
+    height: 182px;
+    background-image: url(barbequeNation.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin-left: 10px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    font-weight: bolder;
+}
+.pic3 h3{
+    color: white;
+
+}
+.pic4{
+    width: 273px;
+    height: 182px;
+    background-image: url(burgerking.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin-left: 10px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    font-weight: bolder;
+}
+.pic4 h3{
+    color: white;
+
+}
+.food1pics{
+    display: flex;
+    margin-top: 20px;
+    
+}
+.food1label{
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+   border-bottom: 1px solid gray;
+  
+}
+.pic1label{
+margin-top: 10px;
+}
+.pic1label h3{
+    color: #02060cbf;
+}
+.pic1label h5{
+    color: #02060c99;
+}
+.ratingfood1{
+display: flex;
+}
+.pic2label{
+    margin-top: 10px;
+}
+.pic2label h3{
+    color: #02060cbf;
+}
+.pic2label h5{
+    color: #02060c99;
+}
+.ratingfood2{
+    display: flex;
+}
+.pic3label{
+    margin-top: 10px;
+}
+.pic3label h3{
+    color: #02060cbf;
+}
+.pic3label h5{
+    color: #02060c99;
+}
+.ratingfood3{
+    display: flex;
+}
+.pic4label{
+    margin-top: 10px;
+}
+.pic4label h3{
+    color: #02060cbf;
+}
+.pic4label h5{
+    color: #02060c99;
+}
+.ratingfood4{
+    display: flex;
+}
+.onlinedelivery{
+    margin-left: 150px;
+}
+.nav-settings{
+    margin-left: 158px;
+    margin-top: 30px;
+    width: 1020px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.x{
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: #02060cbf;
+}
+.maincontent2{
+    margin-left: 150px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.food2pics{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.food2label{
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+}
+.pic5{
+    width: 273px;
+    height: 182px;
+    background-image: url(McD.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin-right: 10px;
+
+}
+.pic6{
+    width: 273px;
+    height: 182px;
+    background-image: url(kfc.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin-right: 10px;
+
+}
+.pic7{
+    width: 273px;
+    height: 182px;
+    background-image: url(dominos.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin-right: 10px;
+
+}
+.pic8{
+    width: 273px;
+    height: 182px;
+    background-image: url(lapinoz.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.food3pics{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.food3label{
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+}
+.pic9{
+    width: 273px;
+    height: 182px;
+    background-image: url(subway.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+.pic10{
+    width: 273px;
+    height: 182px;
+    background-image: url(radheylal.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+.pic11{
+    width: 273px;
+    height: 182px;
+    background-image: url(theobroma.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+.pic12{
+    width: 273px;
+    height: 182px;
+    background-image: url(theOven.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+.food4pics{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.food4label{
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+}
+.pic13{
+    width: 273px;
+    height: 182px;
+    background-image: url(shuklachathouse.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+.pic14{
+    width: 273px;
+    height: 182px;
+    background-image: url(cakes.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+.pic15{
+    width: 273px;
+    height: 182px;
+    background-image: url(belgianWaffle.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+.pic16{
+    width: 273px;
+    height: 182px;
+    background-image: url(madhurimaSweets.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+.food5pics{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.food5label{
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+}
+.pic17{
+    width: 273px;
+    height: 182px;
+    background-image: url(baskinrobin.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+.pic18{
+    width: 273px;
+    height: 182px;
+    background-image: url(starbucks.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+.pic19{
+    width: 273px;
+    height: 182px;
+    background-image: url(7thheaven.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+.pic20{
+    width: 273px;
+    height: 182px;
+    background-image: url(SherEpunjab.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+.y h3{
+    color: #02060cbf;
+}
+.y h5{
+    color: #02060C99;
+}
+.placeheading{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.places{
+    display: flex;
+    justify-content:space-evenly ;
+    flex-wrap: wrap;
+}
+.one1{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.one2{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.one3{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.one1 div{
+    height: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+}
+.one2 div{
+    height: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+}
+.one3 div{
+    height: 50px;
+    width: 300px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+}
+.cuisineheading{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.cuisine{
+    display: flex;
+    justify-content:space-evenly ;
+    flex-wrap: wrap;
+}
+.two1{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.two2{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.two3{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.two1 div{
+    height: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+}
+.two2 div{
+    height: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+}
+.two3 div{
+    height: 50px;
+    width: 300px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+}
+.exploreheading{
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+.explore{
+    display: flex;
+    justify-content:space-evenly ;
+}
+.explore div{
+    height: 50px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+}
+.conclusion{
+    margin-top: 100px;
+    height: 110px;
+    width: 100%;
+    background-color: #f0f0f5;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.concimage{
+    display: flex;
+    justify-content: start;
+}
+.google{
+    margin-right: 20px;
+    height: 64px;
+    width: 200px;
+    background-color: black;
+    color: rgb(241, 240, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+.apple{
+    height: 64px;
+    width: 190px;
+    background-color: black;
+    color: rgb(241, 240, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+.concline{
+    color: #02060CBF;
+}
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #02060c;
+
+}
+.swigimg{
+    height: 50px;
+    width: 50px;
+    background-image: url(Swiggy-logo-768x432.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+.swig{
+    display: flex;
+}
+.f{
+    margin-top: 50px;
+}
+.f h4{
+    color: rgb(241, 240, 240);
+}
+.f h5{
+    color:#ffffff99 ;
+}
+.f h3{
+    color: rgb(241, 240, 240);
+}
